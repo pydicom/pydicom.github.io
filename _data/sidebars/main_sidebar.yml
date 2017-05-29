@@ -1,0 +1,79 @@
+# This is the plan for the sidebar table of contents.
+
+entries:
+
+- title: Pydicom
+  folders:
+
+
+  - title: Information
+    output: web, pdf
+    folderitems:
+
+    - title: About Pydicom
+      url: /about
+      output: web, pdf
+
+  - title: Software
+    output: web, pdf
+    folderitems:
+
+    - title: Pydicom
+      url: /pydicom
+      output: web, pdf
+
+    - title: Pynetdicom
+      url: /pynetdicom
+      output: web, pdf
+
+    - title: Dicom Containers
+      url: /containers
+      output: web, pdf
+
+
+  - title: Contributing
+    output: web, pdf
+    folderitems:
+
+    - title: Code Development
+      url: /contributing-code
+      output: web, pdf
+
+    - title: Documentation
+      url: /contributing-docs
+      output: web, pdf
+
+
+  - title: Getting Help
+    output: web, pdf
+    folderitems:
+
+    - title: FAQ
+      url: /faq
+      output: web, pdf
+
+    - title: Support
+      url: /support
+      output: web, pdf
+
+
+  - title: Tutorials
+    output: web, pdf
+    folderitems:
+
+    - title: Quick Start
+      url: /quickstart
+      output: web, pdf
+
+    - title: Dicom Files
+      url: /dicom-files
+      output: web, pdf
+
+    - title: Service Class Providers
+      url: /scps
+      output: web, pdf
+
+    - title: Service Class Users
+      url: /scus
+      output: web, pdf
+
