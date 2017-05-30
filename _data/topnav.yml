@@ -1,0 +1,22 @@
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Quick Links
+      folderitems:
+        - title: Github
+          external_url: https://github.com/pydicom
+    - title: Software
+      folderitems:
+        - title: Pydicom
+          external_url: https://github.com/darcymason/pydicom
+        - title: pynetdicom3
+          external_url: https://github.com/scaramallion/pynetdicom3
+          
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: News
+      url: /blog
