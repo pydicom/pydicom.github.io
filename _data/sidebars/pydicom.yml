@@ -19,6 +19,6 @@ entries:
       url: /pydicom-install
       output: web, pdf
 
-    - title: Getting Started
+    - title: Usage Guide
       url: /pydicom-getting-started
       output: web, pdf
