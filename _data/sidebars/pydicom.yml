@@ -6,10 +6,6 @@ entries:
   levels: one
   folders:
 
-  - title: Organization Home
-    output: web
-    url: /
-
   - title: Getting Started
     output: web
 
