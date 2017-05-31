@@ -2,11 +2,11 @@
 
 ![images/logo/logo.png](images/logo/logo.png)
 
-This is the future home of the Pydicom documentation. If you are a Python developer looking to get started with Dicom and Python, this will be the place to learn and contribute! For now, here are some helpful links, and general plan for some of the code bases in the organization.
+This is the home of the [Pydicom documentation](https://pydicom.github.io). If you are a Python developer looking to get started with Dicom and Python, this will be the place to learn and contribute! For now, here are some helpful links, and general plan for some of the code bases in the organization.
 
 ## Software
 
- - [pydicom](https://github.com/darcymason/pydicom): The best software in python I've found to work with dicom (datasets) is pydicom. There is substantial docs on [readthedocs](https://pydicom.readthedocs.io/en/stable/) if you want to get started.
+ - [pydicom](https://github.com/pydicom/pydicom): The best software in python I've found to work with dicom (datasets) is pydicom. There is substantial docs on [readthedocs](https://pydicom.readthedocs.io/en/stable/) if you want to get started.
  - [pynetdicom3](https://github.com/scaramallion/pynetdicom3): is where you want to start if you want to create Service Class Providers (SCPs) or Service Class Users (SCUs). These are the little servers/processes that echo/store/move/find dicom datasets around. This is the bread and butter of the protocol, and is based on the original [pynetdicom](https://github.com/patmun/pynetdicom). We will hopefully consolidate these two so that it is less confusing.
 
 

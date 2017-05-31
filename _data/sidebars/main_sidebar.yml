@@ -18,11 +18,19 @@ entries:
     folderitems:
 
     - title: Pydicom
-      url: /pydicom-getting-started
+      url: /pydicom-introduction
       output: web, pdf
  
-
     - title: Pynetdicom
       output: web, pdf
-      external_url: https://github.com/scaramallion/pynetdicom3
+      url: /pynetdicom-getting-started
+
+
+  - title: Datasets
+    output: web, pdf
+    folderitems:
+
+    - title: Learning Datasets
+      url: /datasets
+      output: web, pdf
 

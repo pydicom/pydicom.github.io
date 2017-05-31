@@ -11,7 +11,7 @@ topnav_dropdowns:
     - title: Software
       folderitems:
         - title: Pydicom
-          external_url: https://github.com/darcymason/pydicom
+          external_url: https://github.com/pydicom/pydicom
         - title: pynetdicom3
           external_url: https://github.com/scaramallion/pynetdicom3
           
