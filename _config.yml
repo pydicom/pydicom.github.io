@@ -2,9 +2,6 @@
 title: Pydicom
 description: Learning and resources for Dicom in Python
 logo: "/images/logo/logo.png"
-show_downloads: true
-google_analytics:
-theme:
 
 # Site Config
 host: 127.0.0.1  # the preview server used. Leave as is.
@@ -12,7 +9,7 @@ port: 4005  # the port where the preview is rendered.
 output: web
 url: "http://pydicom.github.io"  # needed for sitemap.xml file only
 
-google_analytics: "UA-84672381-1" # Google Analytics code
+google_analytics: "UA-100220676-1" # Google Analytics code
 twitter_username:     researchapps
 github_username:      pydicom
 repo: "https://github.com/pydicom"
@@ -26,16 +23,15 @@ exclude:
 # Optional Feedback Link in Header (disabled)
 feedback_subject_line: Pydicom Feedback
 feedback_email: vsochat@stanford.edu
-feedback_disable: true
+feedback_disable: false
 feedback_text: "Need help?"
-feedback_link: "http://www.github.com/pydicom/pydicom.github.io/issues"
+feedback_link: "http://www.github.com/pydicom/pydicom/issues"
 
 # Collections
 collections:
   tooltips:
     output: false
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
-
 
 # Defaults
 defaults:
@@ -48,6 +44,15 @@ defaults:
       comments: true
       search: true
       sidebar: main_sidebar
+  -
+    scope:
+      path: ""
+      type: "tooltips"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      tooltip: true
 
   -
     scope:
@@ -58,6 +63,7 @@ defaults:
       comments: true
       search: true
       sidebar: main_sidebar
+
 
 
 # these are defaults used for the frontmatter for these file types
