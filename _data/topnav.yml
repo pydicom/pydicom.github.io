@@ -6,6 +6,8 @@ topnav_dropdowns:
       folderitems:
         - title: Github
           external_url: https://github.com/pydicom
+        - title: Pydicom Google Group
+          external_url: http://groups.google.com/group/pydicom
     - title: Software
       folderitems:
         - title: Pydicom

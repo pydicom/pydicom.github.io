@@ -5,7 +5,6 @@ entries:
 - title: Pydicom
   folders:
 
-
   - title: Information
     output: web, pdf
     folderitems:
@@ -19,8 +18,9 @@ entries:
     folderitems:
 
     - title: Pydicom
+      url: /pydicom-getting-started
       output: web, pdf
-      external_url: https://github.com/darcymason/pydicom
+ 
 
     - title: Pynetdicom
       output: web, pdf
