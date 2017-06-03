@@ -68,6 +68,10 @@ import pydicom
 
 See the <a href="https://github.com/pydicom/pydicom/tree/master/pydicom/examples" target="_blank">examples directory</a> Also see the <a href="/pydicom-user-guide">Pydicom User Guide</a> for more details of how to use the package.
 
+## Where to go from here?
+
+ - [Visualization with Pydicom](/pydicom-visualization)
+
 
 ## Support
 
