@@ -10,3 +10,8 @@
   {% assign sidebar = site.data.sidebars.pydicom.entries %}
   {% assign sidebar_pdf = site.data.sidebars.pydicom.entries %}
 {% endif %}
+
+{% if page.sidebar == "containers" %}
+  {% assign sidebar = site.data.sidebars.containers.entries %}
+  {% assign sidebar_pdf = site.data.sidebars.containers.entries %}
+{% endif %}

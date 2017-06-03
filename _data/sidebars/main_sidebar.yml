@@ -34,3 +34,15 @@ entries:
       url: /datasets
       output: web, pdf
 
+  - title: Containers
+    output: web, pdf
+    folderitems:
+
+    - title: Getting Started
+      url: /containers
+      output: web, pdf
+
+    - title: Dicom Toolkit Containers
+      url: /containers-dcmtk
+      output: web, pdf
+
