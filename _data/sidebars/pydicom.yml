@@ -22,3 +22,7 @@ entries:
     - title: Usage Guide
       url: /pydicom-getting-started
       output: web, pdf
+
+    - title: Viewing Images
+      url: /pydicom-visualization
+      output: web, pdf
