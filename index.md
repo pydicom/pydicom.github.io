@@ -8,13 +8,21 @@ toc: false
 
 Dicom (Digital Imaging in Medicine) is the bread and butter of medical image datasets, storage and transfer. This is the future home of the Pydicom documentation. If you are a Python developer looking to get started with Dicom and Python, this will be the place to learn and contribute! For now, here are some helpful links, and general plan for some of the code bases in the organization.
 
-## Software
+## Python Modules
 
 ### Pydicom
 If you want to work with dicom datasets, you should use [pydicom](/pydicom-introduction). We have started a base of docs here, and see the docs on <a href="https://pydicom.readthedocs.io/en/stable/" target="_blank">readthedocs</a> for you to get started.
 
 ### Pynetdicom
 [pynetdicom3](https://github.com/scaramallion/pynetdicom3) is where you want to start if you want to create Service Class Providers (SCPs) or Service Class Users (SCUs). These are the little servers/processes that echo/store/move/find dicom datasets around. This is the bread and butter of the protocol, and is based on the original [pynetdicom](https://github.com/patmun/pynetdicom). We will hopefully consolidate these two so that it is less confusing.
+
+### Deid
+[deid](https://pydicom.github.io/deid) is a simple module and client that can handle coding (replacement of identifiers) with a study alias. See the [documentation](https://pydicom.github.io/deid) base for getting started.
+
+
+## Applications
+[sendit](https://pydicom.github.io/sendit) is an example Dockerized web application to recive Dicom images, deidentify using your API (and deid, above), and then send off to different storage locations. This application is under development, and not yet ready for use. See the [documentation](https://pydicom.github.io/sendit) for details.
+
 
 ## Containers
 We will be developing different dicom applications that are container-based. This means using [Docker](https://docs.docker.com/get-started/) and [Singularity](https://singularityware.github.io) to easily deploy servers (more suited for Docker), and general tools and applications (Singularity is more suited for tools on shared resources).
