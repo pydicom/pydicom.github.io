@@ -8,7 +8,7 @@ toc: false
 
 Dicom (Digital Imaging in Medicine) is the bread and butter of medical image datasets, storage and transfer. This is the future home of the Pydicom documentation. If you are a Python developer looking to get started with Dicom and Python, this will be the place to learn and contribute! For now, here are some helpful links, and general plan for some of the code bases in the organization.
 
-## Python Modules
+## Modules
 
 ### Pydicom
 If you want to work with dicom datasets, you should use [pydicom](/pydicom-introduction). We have started a base of docs here, and see the docs on <a href="https://pydicom.readthedocs.io/en/stable/" target="_blank">readthedocs</a> for you to get started.
