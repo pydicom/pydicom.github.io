@@ -14,7 +14,7 @@ Dicom (Digital Imaging in Medicine) is the bread and butter of medical image dat
 If you want to work with dicom datasets, you should use [pydicom](/pydicom-introduction). We have started a base of docs here, and see the docs on <a href="https://pydicom.readthedocs.io/en/stable/" target="_blank">readthedocs</a> for you to get started.
 
 ### Pynetdicom
-[pynetdicom3](https://github.com/scaramallion/pynetdicom3) is where you want to start if you want to create Service Class Providers (SCPs) or Service Class Users (SCUs). These are the little servers/processes that echo/store/move/find dicom datasets around. This is the bread and butter of the protocol, and is based on the original [pynetdicom](https://github.com/patmun/pynetdicom). We will hopefully consolidate these two so that it is less confusing.
+[pynetdicom3](https://github.com/pydicom/pynetdicom3) is where you want to start if you want to create Service Class Providers (SCPs) or Service Class Users (SCUs). These are the little servers/processes that echo/store/move/find dicom datasets around. This is the bread and butter of the protocol, and is based on the original [pynetdicom](https://github.com/patmun/pynetdicom). We will soon be consolidating these two so that it is less confusing.
 
 ### Deid
 [deid](https://pydicom.github.io/deid) is a simple module and client that can handle coding (replacement of identifiers) with a study alias. See the [documentation](https://pydicom.github.io/deid) base for getting started.
