@@ -23,9 +23,15 @@ If you want to work with dicom datasets, you should use [pydicom](/pydicom-intro
 ## Applications
 [sendit](https://pydicom.github.io/sendit) is an example Dockerized web application to recive Dicom images, deidentify using your API (and deid, above), and then send off to different storage locations. This application is under development, and not yet ready for use. See the [documentation](https://pydicom.github.io/sendit) for details.
 
+[dicom-database](https://pydicom.github.io/dicom-database) is a simlpified version of sendit, intended for local management of DICOM. This application is under development.
+
 
 ## Containers
 We will be developing different dicom applications that are container-based. This means using [Docker](https://docs.docker.com/get-started/) and [Singularity](https://singularityware.github.io) to easily deploy servers (more suited for Docker), and general tools and applications (Singularity is more suited for tools on shared resources).
+
+### Dicom Scraper
+[Dicom Scraper](https://github.com/pydicom/dicom-scraper) is a tool under development to detect burned-in pixel annotations with ORC, and remove them. Currently, the Dockerized application is using an older version of scipy and python 2*, and this will be updated. The detection is working relatively good and will still need some testing and tweaking.
+
 
 ### Singularity Dicom
 [Singularity Dicom](https://github.com/pydicom/singularity-dicom) This will be a "quick start" image that you can build to easily start using some basic tools for working with dicom files. Currently, the image just installs the [Dicom ToolKit](http://support.dcmtk.org/docs/).
