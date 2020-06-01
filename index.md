@@ -14,7 +14,7 @@ Dicom (Digital Imaging in Medicine) is the bread and butter of medical image dat
 ## Modules
 
 ### Pydicom
-If you want to work with dicom datasets, you should use [pydicom](https://pydicom.github.io/pydicom/stable/getting_started.html). We have started a base of docs here, and see the <a href="https://pydicom.github.io/pydicom" target="_blank">documentation</a> for you to get started.
+If you want to work with dicom datasets, you should use [pydicom](https://github.com/pydicom/pydicom). We have started a base of docs here, and see the <a href="https://pydicom.github.io/pydicom" target="_blank">documentation</a> for you to get started.
 
 ### Pynetdicom
 [pynetdicom3](https://github.com/pydicom/pynetdicom3) is where you want to start if you want to create Service Class Providers (SCPs) or Service Class Users (SCUs). These are the little servers/processes that echo/store/move/find dicom datasets around. This is the bread and butter of the protocol, and is based on the original [pynetdicom](https://github.com/patmun/pynetdicom). We will soon be consolidating these two so that it is less confusing.
