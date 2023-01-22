@@ -21,7 +21,7 @@ If you want to work with dicom datasets, you should use [pydicom](https://github
 
 
 ## Applications
-[sendit](https://pydicom.github.io/sendit) is an example Dockerized web application to recive Dicom images, deidentify using your API (and deid, above), and then send off to different storage locations. This application is under development, and not yet ready for use. See the [documentation](https://pydicom.github.io/sendit) for details.
+[sendit](https://pydicom.github.io/sendit) is an example Dockerized web application to receive Dicom images, deidentify using your API (and deid, above), and then send off to different storage locations. This application is under development, and not yet ready for use. See the [documentation](https://pydicom.github.io/sendit) for details.
 
 [dicom-database](https://pydicom.github.io/dicom-database) is a simlpified version of sendit, intended for local management of DICOM. This application is under development.
 
